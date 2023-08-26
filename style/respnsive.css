@@ -1,0 +1,327 @@
+@media screen and (max-width:1366px) 
+{
+    
+}
+@media screen and (max-width:1200px) 
+{
+    
+    .odam{
+        height: 587px;
+    }
+    .hard{
+        font-size: 16px;
+    }
+    .hard:nth-child(3) p{
+        font-size: 12px;
+    }
+    .hard:nth-child(2) p{
+        font-size: 12px;
+    }
+    .hard:nth-child(1) p{
+        font-size: 12px;
+    }
+    .hard:nth-child(4) p{
+        font-size: 12px;
+    }
+    .odam h1{
+        font-size: 50px;
+    }
+    .thiss{
+        margin: 0px;
+    }
+    .this1 p {
+        padding-bottom: 20xp;
+    }
+    .bag{
+       padding-bottom: 40px;
+    }
+}
+@media screen and (max-width:992px) {
+
+    .header_ichki h1{
+        font-size: 80px;
+    }
+    .header_ichki h3{
+        font-size: 15px;
+    }
+    .h4{
+        font-size: 15px;
+    }
+    .font{
+        font-size: 170px;
+    }
+    .header_ichki2 h3{
+        font-size: 40px;
+    }
+    .header_ichki2 ul li a{
+        font-size: 13px;
+    }
+    .header_ichki2 ul li{
+        width: 19%;
+    }
+    .hello{
+        width: 100%;
+        float: none;
+        border: none;
+        text-align: center;
+    }
+  
+    .hello h2{
+        margin: 0px;
+    }
+    .hello h1{
+        margin: 10px 20px;
+    }
+    .hello1{
+        width: 100%;
+        float: none;
+        padding: 10px 20px;
+        margin: 0x 20px;
+    }
+    .card{
+        width: 100%;
+        float: none;
+        margin: 0px;
+        
+    }
+    .card1{
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+    .card2{
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+    .xat{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .xat ul li{
+        width: 100%;
+        
+    }
+    .xat ul li a{
+        margin: 10px 0px;
+    }
+    .pastki p{
+        font-size: 14px;
+    }
+    .hard h1{
+        font-size: 15px;
+    }
+    .hard:nth-child(3) p{
+        font-size: 8px;
+        padding: 0px 10px;
+    }
+    .hard:nth-child(2) p{
+        font-size: 8px;
+        padding: 10px 10px;
+    }
+    .hard:nth-child(1) p{
+        font-size: 8px;
+        padding: 10px 10px;
+    }
+    .hard:nth-child(4) p{
+        font-size: 8px;
+        padding:10px 10px;
+    }
+    .hard:nth-child(5) p{
+        font-size: 8px;
+        padding: 10px 10px;
+    }
+    .hard:nth-child(6) p{
+        font-size: 8px;
+        padding: 10px 10px;
+    }
+    .rasm h2{
+        font-size: 20px;
+    }
+    .top1 h4{
+        font-size: 12px;
+    }
+    .top1 p{
+        font-size: 12px;
+    }
+    .petter img{
+        width: 100%;
+    }
+    .this{
+        float: none;
+    }
+    .thiss{
+        float: none;
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+    
+       
+    }
+    .thiss h4{
+       padding-top: 10px;
+    }
+    .this1{
+        float: none;
+    }
+    .this1 p{
+
+        margin-bottom: 20px;
+        }
+        .kitob1{
+            float: none;
+        }
+        .kitob1:nth-child(2){
+            float: none;
+        }
+        .kitob1:nth-child(3){
+            float: none;
+             
+        }
+        .kitob1:nth-child(4){
+                
+            float: none;
+            margin-bottom: 20px;
+         
+        }
+        .kitob{
+            width: 50%;
+            height: auto;
+        }
+        .kitob1{
+            width: 80%;
+            height: auto;
+        }
+     
+        .cards1{
+            float: none;
+            width: 100%;
+        }
+        .cards{
+            float: none;
+            width: 100%;
+        }
+        .qora{
+            float: left;
+        }
+        .qora ul{
+            margin: 25px;
+        }
+        .hello1{
+            height: auto;
+        }
+        .hello1 p{
+            margin: 30px 20px;
+        }
+        .hello1 h5{
+            margin: 30px 20px;
+        }
+        .qora ul li a {
+            font-size: 14.5px;
+        }
+        .odam1{
+            position: absolute;
+            left: 100px;
+            bottom: 20px;
+        }
+}   
+@media screen and (max-width:576px) 
+{   
+
+
+    .odam1{
+        position: absolute;
+        left: 40px;
+        bottom: 20px;
+        font-size: 15px;
+    }
+    .qora{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .qora .icon{
+        display: block;
+
+        width: 100%;
+        text-align: center;
+    }
+    .header_ichki h1{
+        font-size: 40px;
+    }
+    .header_ichki h4{
+        font-size: 9px;
+    }
+    .header_ichki h3{
+        font-size: 9px;
+    }
+    .h4{
+        font-size: 9px;
+    }
+    .header_ichki2 h3{
+        font-size: 20px;
+    }
+    .font{
+        font-size: 60px;
+    }
+    font{
+        font-size: 73px;
+    }
+    .header_ichki2 ul li {
+        float: none;
+    }
+    .header_ichki2 ul li a{
+        display: block;
+        padding: 10px 20px;
+    }
+    .process__desc{
+        float: none;
+        height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+    }
+    .process__img{
+        float: none;
+        height: auto;
+        text-align: center;
+        margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+    }
+    .hard h1{
+        font-size: 10px;
+    }
+    .petter{
+        float: none;
+        margin: 10px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+form input{
+    margin: 0px;
+}
+.ul li a{
+    padding: 9px 5px;
+}
+.ul1 li a{
+    padding: 5px 5px;
+}
+.qora{
+    width: 100%;
+}
+.odam {
+    width: 100%;
+}
+.icon{
+    width: 18%;
+
+}
+}
+@media screen and (max-width:320px) 
+{
+    
+}

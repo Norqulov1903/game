@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:"maryiad bold" ;
+    src: url("../Myriad\ Pro\ Bold.ttf");
+}
+@font-face {
+    font-family:"maryiad regular" ;
+    src: url("../myriadpro-regular.otf");
+}
+@font-face {
+    font-family:"maryiad italic" ;
+    src: url("../Myriad\ Pro\ Italic.ttf");
+}
+@font-face {
+    font-family:"maryiad semboid" ;
+    src: url("../Myriad\ Pro\ Semibold\ Condensed.otf");
+}
+
+
+
+
+
+.sayt{
+    width: 90%;
+    height: auto;
+   
+    margin: auto;
+    overflow: hidden;
+    background: url("../images/img3.jpg") no-repeat center center /cover;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    color: white;
+
+    background: url("../images/img1.jpg") no-repeat center center /cover;
+}
+.header_ichki{
+    width: 85%;
+    height:auto;
+    font-family:"maryiad regular" ;
+    margin: auto;
+}
+.header_ichki h1{
+    font-size: 150px;
+    padding-top: 100px;
+    font-family:"maryiad bold" ;
+}
+.font{
+    font-size: 220px;
+    color: gold;
+}
+.header_ichki h3{
+    padding: 20px 0;
+    font-family:"maryiad regular" ;
+}
+.h4{
+    color: gold;
+    font-family:"maryiad regular" ;
+}
+font{
+    color: gold;
+    font-size: 60px;
+    font-family:"maryiad regular" ;
+}
+
+.header_ichki2{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    height: 700px;
+    background: url("../images/img2.jpg") no-repeat center center /cover;
+}
+.header_ichki2 h3{
+padding: 30px 50px;
+    font-size: 60px;
+    font-family:"maryiad bold" ;
+}
+.header_ichki2 ul {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.header_ichki2 ul li{
+    float: left;
+    width: 10%;
+}
+.header_ichki2 ul li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    font-family:"maryiad regular" ;
+}
+.header_ichki2 ul li a:hover{
+    color: white;
+}
+.salom{
+    width:85%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+}
+.clear  
+{
+    clear: both;
+}
+.hello{
+    width: 48%;
+    height: 160px;
+    float: left;
+    font-family:"maryiad semboid" ;
+  border: none;
+  border-right: 1px solid rgba(177, 167, 167, 0.6);
+    margin-top: 30px;
+    text-align: justify;
+}
+.hello h2 {
+    padding-top: 16px;
+    font-size: 40px;
+    color: grey;
+   margin-left: 95px;
+}
+.hello h1{
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.hello1{
+    width: 48%;
+    float: right;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family:"maryiad italic" ;
+}
+.hello1 h5 {
+    margin-bottom: 20px;
+    text-transform: initial;
+  
+}
+.hello1 p{
+    color: grey;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 25%;
+    float: left;
+    font-family:"maryiad italic" ;
+    height: auto;
+    margin-top: 60px;
+    text-align: center;
+
+}
+.content image{
+    width: 100%;
+}
+.card1{
+    width: 25%;
+    float: left;
+    font-family:"maryiad italic" ;
+    height: auto;
+    margin-top: 60px;
+
+    text-align: center;
+
+}
+.card2{
+    width: 25%;
+    float: left;
+    font-family:"maryiad italic" ;
+    height: auto;
+    margin-top: 60px;
+    
+    text-align: center;
+}
+.key{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+        border: 5px solid gold;
+   margin: auto;
+    
+}
+.key i{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+  padding-top: 17px;
+}
+.card h3 {
+    padding: 20px 0px;
+}
+.card p {
+    padding: 20px 0px;
+    color: rgb(71, 69, 69);
+}
+.card1 h3 {
+    padding: 20px 0px;
+}
+.card1 p {
+    padding: 20px 0px;
+    color: rgb(83, 82, 82);
+}
+.card2 h3 {
+    padding: 20px 0px;
+}
+.card2 p {
+    padding: 20px 0px;
+    color: rgb(87, 84, 84);
+}
+.xat{
+    width: 70%;
+    height: 100px;
+    font-family:"maryiad semboid" ;
+    margin: 50px 30px;
+}
+.xat h2{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.xat ul {
+    list-style: none;
+    margin-top: 30px;
+    
+}
+.xat ul li{
+    float: left;
+    width: 20%;
+}
+.xat ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+font-size: 13px;
+color: black;
+}
+.xat ul li a:hover{
+    color: red;
+}
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img{
+    width: 21%;
+    height: 100%;
+   padding-left: 5px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+.pastki{
+    width: 80%;
+    height: auto;
+   
+    margin: auto;
+}
+.pastki h1{
+    padding-top: 50px;
+    font-family:"maryiad semboid" ;
+    font-size: 50px;
+}
+.p{
+    padding-top: 20px ;
+    font-family:"maryiad regular" ;
+}
+.pastki p{
+    padding-top: 30px;
+    font-family:"maryiad regular" ;
+}
+.look{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    
+    margin-top: 30px;
+}
+.process1{
+    height: 300px;
+}
+
+.process1{
+    height: auto;
+}
+.process__desc
+{
+    float: left;
+    width: 48%;
+}
+.process__desc h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:"maryiad semboid" ;
+}
+.process__desc h5{
+    margin-top: 10px;
+    font-family:"maryiad italic" ;
+    margin-bottom: 20px;
+}
+.process__desc p{
+    font-family:"maryiad regular" ;
+    color: grey;
+}
+.process__img{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+.process__img img{
+    width: 100%;
+}
+
+.rasm{
+    width: 100%;
+    height: 700px;
+    
+    background: url("../images/odm.jpg") no-repeat center center/cover;
+}
+.rasm h2{
+    font-size: 50px;
+  padding: 50px 50px;
+  color: white;
+  font-family:"maryiad semboid" ;
+
+}
+.hard{
+    width: 40%;
+    height: 250px;
+    font-family:"maryiad regular" ;
+    float: right;
+    color: white;
+    margin: 0px 20px;
+  
+}
+.hard h1{
+    font-family:"maryiad regular" ;
+    font-size: 25px;
+}
+.hard:nth-child(3) p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+.hard:nth-child(2) p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+.hard:nth-child(6) p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+.hard:nth-child(5) p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+.fit{
+    width: 100%;
+    height: auto;
+background-color: white;
+}
+.top{
+    width: 18%;
+    height: auto;
+    font-family:"maryiad semboid" ;
+    float: left;
+    margin-top: 30px;
+}
+.top h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family:"maryiad semboid" ;
+}
+.top1{
+    width: 81%;
+    height: auto;
+
+    float: left;
+    margin-top: 30px;
+}
+
+.top1 h4{
+    padding-top: 20px;
+    font-style: italic;
+    font-family:"maryiad italic" ;
+}
+.top1 p {
+    padding-top: 30px;
+    font-family:"maryiad regular" ;
+}
+.bg{
+    font-size: 30px;
+}
+.petter{
+    width:24%;
+    height: auto;
+    font-family:"maryiad semboid" ;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+.petter:nth-child(3) h5{
+    color: gray;
+    font-family:"maryiad italic" ;
+}
+.petter:nth-child(4) h5{
+    color: gray;
+    font-family:"maryiad italic" ;
+}
+.petter:nth-child(5) h5{
+    color: gray;
+    font-family:"maryiad italic" ;
+}
+.petter:nth-child(6) h5{
+    color: gray;
+    font-family:"maryiad italic" ;
+}
+.bag{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    margin: 30px 0px;
+}
+.this{
+    width: 30%;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+.this h1{
+    padding-top: 30px;
+    font-family:"maryiad semboid" ;
+}
+.this1{
+    width: 70%;
+    height: auto;
+    
+    float: left;
+}
+.this1{
+    width: 60%;
+    height: auto;
+    margin-left: 50px;
+    float:left;
+
+}
+.this1 h3{
+    padding-top: 40px;
+    font-style: italic;
+    font-family:"maryiad italic" ;
+}
+.this1 p {
+    font-family:"maryiad semboid" ;
+ padding: 30px 0px;
+    
+}
+.thiss{
+    width: 200px;
+    height: auto;
+    
+    float: left;
+    margin: 50px 50px;
+    text-align: center;
+}
+.clear{
+    clear: both ;
+}
+.this2{
+    width: 150px;
+    height: 150px;
+ margin: 0px 20px;
+    border-radius: 50%;
+    border: 3px solid gold;
+    background: url("../images/odam5.jpg") no-repeat center center /cover;
+
+}
+.book{
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+}
+.kitob{
+    width: 26%;
+    height: 500px;
+    
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.kitob1{
+    width: 20%;
+    height: auto;
+    
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: justify;
+}
+.kitob h2{
+    margin: 10px 30px;
+    font-family:"maryiad semboid" ;
+}
+.kitob ul {
+    list-style: none;
+    margin-top: 40px;
+    float: right;
+}
+.kitob ul li {
+    float: none;
+
+}
+.kitob ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+margin-right: 40px;
+    color: black;
+    padding: 20px 0px;
+    font-family:"maryiad regular" ;
+}
+.kitob ul li a:hover{
+    color: gold;
+}
+.kitob1 img {
+    width: 100%;
+    height: auto;
+
+}
+.kitob1 h3{
+    color: gold;
+    margin-bottom: 30px;
+    font-family:"maryiad regular" ;
+}
+
+.kitob1 h4{
+    margin-bottom: 20px;
+    font-family:"maryiad bold" ;
+}
+.kitob1 p{
+    font-family:"maryiad italic" ;
+
+}
+.nini{
+    width: 100%;
+    height: auto;
+ 
+}
+.cards{
+    width: 40%;
+    height: 615px;
+    
+    float: left;
+    background: url("../images/xarita.png") no-repeat center center /cover;
+}
+.cards1{
+    width: 59%;
+    height: 615px;
+    
+    float: left;
+    background-color: #2046b3;
+}
+.cards1 i{
+    font-size: 22px;
+    color: white;
+   margin: 10px 20px;
+}
+.cards1  i:hover{
+    color: gold;
+}
+.born{
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.qora{
+    width: 25%;
+    height: auto;
+
+    background-color: black;
+    float: left;
+}
+.odam{
+    width: 74%;
+    height: 586px;
+   margin-bottom: 40px;
+    float: left;
+    color: white;
+    background-color: black;
+    position: relative;
+    background: url("../images/oadm.jpg") no-repeat right center /cover;
+}
+.qora h3{
+    margin: 30px 10px;
+    color: white;
+    font-size: 30px;
+    font-family:"maryiad bold" ;
+}
+.qora ul{
+    list-style: none;
+    margin: 40px;
+}
+.qora ul li {
+    float: none;
+
+}
+.qora ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    font-family:"maryiad bold" ;
+
+}
+.qora ul li a:hover{
+color: gold;
+}
+
+.icon{
+    width: 50%;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin: 10px 20px;
+    border: none;
+    border-top: 2px solid gold;
+}
+.odam1{
+    width: 80%;
+    height: auto;
+    font-family:"maryiad bold" ;
+    position: absolute;
+    bottom: 20px;
+    left: 228px;
+}
+.odam h1{
+    font-size: 70px;
+  
+}
+.intent{
+    width: 80%;
+    height: 511px;
+
+   margin: auto;
+   margin-top: 50px;
+}
+.intent h1{
+font-size: 40px;
+font-family:"maryiad semboid" ;
+}
+.intent form{
+    width: 90%;
+    margin: 10px 20px;
+    height: 35px;
+  
+    outline: none;
+}
+.intent input::placeholder{
+    color: white;
+    padding-left: 15px;
+    font-family:"maryiad semboid" ;
+}
+form input{
+    width: 100%;
+    height:25px;
+    background: transparent;
+margin-top: 10px;
+}
+.input{
+    width: 40%;
+    float: left;
+  
+}
+.input1{
+    width: 40%;
+    float: right;
+  
+
+}
+.intent textarea{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    outline: none;
+    margin-top: 10px;
+}
+
+.intent textarea::placeholder {
+    color: white;
+    padding: 10px 20px;
+    font-family:"maryiad semboid" ;
+}
+button{
+    background-color: gold;
+    color:black;
+    width: 20%;
+    height: 30px;
+    margin-top: 20px;
+    font-family:"maryiad semboid" ;
+
+}
+.ul{
+    width: 30%;
+    float: left;
+    list-style: none;
+    font-family:"maryiad semboid" ;
+}
+.ul li a{
+display: block;
+text-decoration: none;
+color: white;
+padding: 9px 20px;
+font-family:"maryiad semboid" ;
+
+}
+.intent h3{
+    color: white;
+    margin: 20px 10px;
+}
+.ul1{
+    width: 40%;
+    float: left;
+    list-style: none;
+
+}
+.ul1 li a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    padding: 5px 20px;
+    font-family:"maryiad semboid" ;
+   
+    }
+
+
+
+
+
+
+
+
+
+
